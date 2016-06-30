@@ -1,0 +1,46 @@
+[class^="bef-"],
+[class^="aft-"],
+[class^="pseudo-"] {
+  position: relative;
+}
+
+.pseudo-bg-red::before,
+.pseudo-bg-red::after {
+  background-color: #d6001c;
+}
+
+.pseudo-bg-gray::before,
+.pseudo-bg-gray::after {
+  background-color: #DEDEDE;
+}
+
+
+.bef-divider::before {
+  content: '';
+  width: 100%;
+  height: .5rem;
+  top: 1.5rem;
+  left: 0;
+  display: block;
+  position: absolute;
+  z-index: -1;
+}
+
+.bef-divider-small::before {
+  content: '';
+  width: 100%;
+  height: .25rem;
+  top: 1.5rem;
+  left: 0;
+  display: block;
+  position: absolute;
+  z-index: -1;
+}
+
+.aft-mark::after {
+  content: '';
+  display: block;
+  width: 7.5rem;
+  height: 1rem;
+  margin-top: .8rem;
+}

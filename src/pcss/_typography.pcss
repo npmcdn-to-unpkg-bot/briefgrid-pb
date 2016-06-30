@@ -1,8 +1,26 @@
-/*
- * Typography styles
- *
- * @TODO: finish typography from tachyons
- * @TODO: Media queries
+/* @styleguide
+ * @title Typography styles
+  <span class="fw-600" style="color: #B232B2;">@TODO</span>: finish typography styles (look at MDN & )
+  <span class="fw-600" style="color: #B232B2;">@TODO</span>: Media queries
+  <p class="f-2 ff-sans mb-1 fw-600">Font-stack:</p>
+  *<p class="f-4 lh-loose mt-3 mb-3">Use the font-stack classes with the following formula: <br>.ff-{sans or serif}</p>*
+  <p class="f-3 ff-sans">Sans-serif font: Source Sans Pro</p>
+  <p class="f-3 ff-serif">Serif font: Utopia Serif</p>
+  <hr class="mb-5">
+  <p class="f-2 ff-sans mb-1 fw-600">Font-size:</h1>
+  *<p class="f-4 lh-loose mt-3 mb-3">Use the font-size classes with the following formula: <br>.f-{Number from 1 to 6}</p>*
+  <p class="f-1 ff-sans">Hello - H1</p>
+  <p class="f-2 ff-sans">Hello - H2</p>
+  <p class="f-3 ff-sans">Hello - H3</p>
+  <p class="f-4 ff-sans">Hello - H4</p>
+  <p class="f-5 ff-sans">Hello - H5</p>
+  <p class="f-c-title ff-sans">Title</p>
+  <p class="f-c-subtitle ff-sans">Subtitle</p>
+  <hr class="mb-5">
+  <p class="f-2 ff-sans mb-1 fw-600">Line Height:</p>
+  <p class="f-5 lh-tight">Line height tight at **1rem** or **10px**</p>
+  <p class="f-5 lh-medium">Line height medium at **1.2rem** or **12px**</p>
+  <p class="f-5 lh-loose">Line height loose at **1.4rem** or **14px**</p>
  */
 
 
@@ -127,10 +145,18 @@
   font-size: 4rem;
   line-height: 1.2;
   font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
 }
 
 .f-c-subtitle {
   font-size: 3rem;
   line-height: 1;
   font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
+
+.f-c-tag {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 900;
 }
